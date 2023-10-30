@@ -18,14 +18,14 @@ const [showFullWidthSearch, setShowWidthSearch] = useState(false)
         </div>
         
         <form className={`md:flex flex-grow justify-center gap-  ${showFullWidthSearch ? "flex" : "hidden"}`}>
-          <Button
+          {showFullWidthSearch &&  <Button
             onClick={() => setShowWidthSearch(false)} 
             type="button" 
             size="icon"
             variant="ghost" 
             className="flex-shrink-0">
             <ArrowLeft />
-          </Button>
+          </Button>}
 
           <div className="flex flex-grow max-w-[600px]">
             <input type="search" placeholder="Search" className="rounded-l-full border
