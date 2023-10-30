@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+# YouTube Homepage Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clone of the YouTube homepage, I built it for learning purposes. It's developed using TypeScript, React, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Link to Demo](#)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- [x] Responsive design mimicking the YouTube homepage
+- [x] Basic functionality like video thumbnails, search bar, etc.
+- [x] TypeScript for static typing
+- [x] Tailwind CSS for styling
+- [x] Vite for a fast and efficient development environment.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/realsahabia/youtubeHomePage-Clone.git
+
+2. Install dependencies:
+cd youtubeHomePage-Clone
+npm install
+
+3. Start the development server:
+npm run dev
+
+This will start the development server. Open http://localhost:5173/ to view the app in your browser
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request
+
